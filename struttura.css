@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #3161E0
+#F6F6F6
+#23272A
+ */
+
+/********
+Flex Nav
+*********/
+
+nav{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.home{
+    background-color: #3161E0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-info span{
+    padding: 0 10px;
+    align-self: center;
+}
+
+.center-info{
+    display: flex
+}
+
+.discord{
+    align-self: center;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+/***********  *************/
+
+/**************
+Flex main
+***************/
+
+.box-descrition{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3161E0;
+}
+
+.descrition{
+    height: 80%;
+    width: 40%;
+    background-color: darkviolet;
+}
+/**********
+BOX 1
+***********/
+.box-1{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caratteristiche{
+    height: 70%;
+    width: 60%;
+    border: 2px solid green;
+    display: flex;
+
+}
+
+.immagine{
+    height: 100%;
+    width: 60%;
+    background-color: burlywood;
+}
+
+.testo{
+    height: 100%;
+    width: 40%;
+    background-color: lightgreen
+
+}
+/**********
+BOX 2
+***********/
+.box-2{
+    height: 500px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reverse{
+    height: 70%;
+    width: 60%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/***********
+Big Img
+************/
+
+.big-img{
+    height: 800px;
+    background-color: #F6F6F6;
+}
+
+.box-4{
+    height: 100%;
+    max-width: 60%;
+    background-color: #F6F6F6;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+img{
+    height: 400px;
+    width: 60%;
+    background-color: lawngreen;
+} 
+
+h2{
+    padding: 70px 0 20px 0;
+}
+
+p{
+    padding: 0 0 50px 0;
+}
+
+/***********
+fine pagina
+************/
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #23272A;
+    padding-top: 60px;
+    
+}
+
+.bottom{
+    height: 80%;
+    width: 60%;
+    background-color: coral;
+    margin: 0 auto;
+    display: flex;
+}
+
+.panoramica{
+    width: 30%;
+    height: 100%;
+    background-color: burlywood;
+    display: flex;
+    align-items: flex-start;
+}
+
+.prodotto, .compagnia, .risorse, .norme{
+    width: calc(100% / 5);
+    height: 100%;
+    
+}
+.prodotto{
+    background-color: dodgerblue;    
+}
+
+.compagnia{
+    background-color: sienna;
+}
+
+.risorse{
+    background-color: yellowgreen;
+}
+
+.norme{
+    background-color: mediumseagreen;
+}
+
+li, .start-list{
+    list-style: none;
+    padding: 5px;
+} 
+
+.line{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 10px;
+    width: 60%;
+}
+
+.end-footer{
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
